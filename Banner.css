@@ -1,0 +1,42 @@
+.banner{
+    height: 28rem;
+    color: white;
+    object-fit: contain;
+    font-family: Arial,sans-serif;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+.header-content{
+   margin-left: 2rem;
+    padding-top: 8rem;
+}
+.moviename{
+    font-weight: 900;
+    }
+    .overview{
+        width: 300px;
+         font-size: 1rem;
+         height: auto;
+        line-height: 1.2rem;
+        font-weight: 600;
+        padding-top: 1rem;
+       }
+    .banner_buttons{
+        padding-top: 1rem;
+    }
+    .butn{
+        cursor: pointer;
+        color: white;
+        outline: none;
+        border: none;
+        font-weight: 900;
+        background-color: rgba(51, 51, 51, 0.5);
+        font-size: 1.2rem;
+       padding: .5rem 2rem .5rem 2rem;
+        margin-right: .5rem;
+        transition: all linear .5s;
+    }
+    .butn:hover{
+        background-color: white;
+        color: black;
+    }
